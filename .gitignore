@@ -130,3 +130,6 @@ dmypy.json
 
 # Own Adapations
 .DS_Store
+
+# vsc
+.vscode
