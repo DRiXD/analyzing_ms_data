@@ -21,3 +21,21 @@ analyzing_ms_data
 ├── .gitignore
 └── README.md
 ```
+
+## Proposed Classifiers
+In this work we compare different classifiers concerning their classification performance
+
+9-protein classifier proposed by Barnabas et al.
+```
+nine_prot_classifier = ['ENPP3', 'IVL', 'S100A2', 'MYH11', 'SERPINB5', 'NNMT', 'CLCA4', 'CD109', 'S100A14']
+```
+
+10-protein classifier proposed by this work
+```
+my_classifier = ['SERPINB5', 'S100A2', 'S100A14', 'NNMT', 'SPRR3', 'SFN', 'S100P', 'MIF', 'IVL', 'FSTL1']
+```
+
+4-protein classifier proposed by this work
+```
+my_classifier = ['SERPINB5', 'S100A2', 'S100A14', 'NNMT']
+```
