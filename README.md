@@ -22,6 +22,16 @@ analyzing_ms_data
 └── README.md
 ```
 
+## How-To
+
+In this paragraph it's shortly explained how to work with this repo.
+
+The data for this project is received from G. D. Barnabas et al. and can be found [here](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=f64c8542fbb04f7b8cfb8fe1078fbec2). For ease of use some of this data is also upploaded into this repository and can be found under ```data/```.
+
+All of the code is upploaded and stored under ```scripts/```. To get a first overlook over the data in the folder ```scripts/visualization/``` is the script to view the MS-Diagrams. Also in ```scripts/plots/``` some code to visualize the gene lfq data can be found.
+
+The feature selection aswell as the final classification algorithms can be found in their respective orders. To run those only a valid python installation aswell as the necessary packages is required.
+
 ## Proposed Classifiers
 In this work we compare different classifiers concerning their classification performance
 
